@@ -19,9 +19,11 @@ public class WebCamPhoto : MonoBehaviour
     {
         GetComponent<RawImage>().texture = webCamTexture;
 
-        if(Input.GetKeyDown("p"))
+        if(Input.GetKeyDown("p")) //I picked p for photo, no real complicated reason
         {
             StartCoroutine(TakePhoto());
+            //character.renderer.maintexture = LoadPicture();
+            
         }
     }
 
@@ -40,4 +42,7 @@ public class WebCamPhoto : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
     }
+
+    
+
 }

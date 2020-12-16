@@ -240,6 +240,7 @@
     <Compile Include="Assets\Photon\PhotonUtilities\PackObject\CodeGen\TypeInfo.cs" />
     <Compile Include="Assets\Photon\Simple\Core\Structs\FrameBase.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GUITools\ValueTypeAttribute.cs" />
+    <Compile Include="Assets\Scripts\WebCamPhoto.cs" />
     <Compile Include="Assets\NF3DFaceAnimFree50Win\_Scripts\IntuitiveProModel.cs" />
     <Compile Include="Assets\Photon\Simple\Components\ContactSystems\SyncVitals\Interfaces\IVitalsContactReactor.cs" />
     <Compile Include="Assets\Photon\PhotonUtilities\TransformCrusher\WorldBounds\WorldBoundsGroup.cs" />
@@ -305,7 +306,7 @@
     <Compile Include="Assets\Photon\Simple\Core\GenericHitscan\HitscanComponent.cs" />
     <Compile Include="Assets\Photon\Simple\Components\SyncState\Enums\ObjState.cs" />
     <Compile Include="Assets\Photon\Simple\Utilities\GhostWorld\HauntedStatic.cs" />
-    <Compile Include="Assets\Scripts\WebCamPhoto.cs" />
+    <Compile Include="Assets\Scripts\FaceReplace.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
